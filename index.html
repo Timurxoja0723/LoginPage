@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Css Links -->
+  <link rel="stylesheet" href="./css/main.css">
+  <!-- Animate Css -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <!-- Site title -->
+  <title>RegistrationForm</title>
+</head>
+
+<body>
+  <section class="form__section">
+    <div class="form__wrap">
+      <form action="#">
+        <h1 class="form__title" animate__rubberBand><span>Registration</span>Form</h1>
+        <div class="form__input-box animate__flipInX">
+          <input id="fname" type="text" placeholder="First name" required>
+        </div>
+        <div class="form__input-box animate__flipInX">
+          <input id="lname" type="text" placeholder="Last name" required>
+        </div>
+        <div class="form__input-box animate__flipInX">
+          <input id="email" type="email" placeholder="Email Address" required>
+        </div>
+        <div class="form__input-box animate__flipInX">
+          <input id="pass" type="password" placeholder="Password" required>
+        </div>
+        <div class="form__input-box animate__flipInX">
+          <input id="repeatPass" type="password" placeholder="Confirm Password" required>
+        </div>
+        <div class="form__submit-btn-box">
+          <button class="form__submit-btn">Submit</button>
+        </div>
+      </form>
+    </div>
+  </section>
+  <script src="./js/sweetalert.js"></script>
+  <script src="./js/login.js"></script>
+</body>
+
+</html>
